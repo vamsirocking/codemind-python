@@ -1,0 +1,8 @@
+h=input()
+mm=int(h[3:])
+hh=int(h[:2])
+ha=0.5*(60*hh+mm)
+ma=6*(mm)
+angle=abs(ha-ma)
+ang1=min(angle,360-angle)
+print(ang1)
